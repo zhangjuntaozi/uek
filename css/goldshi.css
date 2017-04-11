@@ -1,0 +1,428 @@
+/*
+* @Author: Acer
+* @Date:   2017-04-07 22:33:20
+* @Last Modified by:   Acer
+* @Last Modified time: 2017-04-10 15:53:50
+*/
+
+/* 头部 */
+
+.php{
+	width: 100%;
+	height:0.45rem;
+	background: #1C4E8B;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 900;
+}
+
+.php a{
+	display: block;
+	width: 0.75rem;
+	height: 0.45rem;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.45rem;
+	float: left;
+}
+
+
+
+
+.box1{
+	width: 100%;
+	height: 2.105rem;
+	background: url('../img/goldshi/banner4.jpg') no-repeat center center;
+	background-size: 100%;
+}
+
+
+/* 第二块 */
+.box2{
+	width: 100%;
+	height: 9rem;
+	background: #F5F6FA;
+}
+
+.box2-son{
+	width: 3.51rem;
+	height: 9rem;
+	margin: 0 auto;
+}
+
+.son1{
+	width: 100%;
+	height: 0.35rem;
+}
+
+.son1-a{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	color: #000;
+	font-weight:500;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.24rem;
+	margin-right: 0.07rem;
+}
+
+.son1-span1{
+	display: inline-block;
+	width:0.08rem;
+	height: 0.1rem;
+	background: url('../img/goldshi/jiantou.png') no-repeat center center;
+	background-size: 100%;
+	color: #000;
+	margin-top: 0.13rem;
+	font-size: 0.12rem;
+
+}
+.son1-a1{
+	display: inline-block;
+	width:auto;
+	height: auto;
+	color: #000;
+	font-weight:500;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.24rem;
+	margin-right: 0.07rem;
+}
+
+
+/* 第二块中的第二 */
+
+
+.box2-content{
+	width: 3.27rem;
+	height: 8.175rem;
+	background: #fff;
+	margin: 0.05rem auto 0;
+	padding: 0.05rem  0.12rem 0;
+}
+
+.son2{
+	width: 3.15rem;
+	height:0.38rem;
+	border: 0.02rem solid #01b5ff;
+	border-radius: 0.07rem;
+	margin: 0 auto;
+}
+
+.son2-a{
+	background: #01b5ff;
+	display: block;
+	width: 1.05rem;
+	height: 0.38rem;
+	position: relative;
+	text-align: center;
+	line-height:0.38rem; 
+	float: left;
+	/* border-radius: 0.07rem; */
+}
+
+.son2-a1{
+	display: block;
+	width: 1rem;
+	height: 0.38rem;
+	position: relative;
+	text-align: center;
+	line-height:0.38rem; 
+	float: left;
+	color: #000;
+	/* border-radius: 0.07rem; */
+}
+.sanjiao{
+	border-top:0.1rem solid #01b5ff;
+	border-bottom: : 0.1rem solid rgba(0, 0, 0, 0);
+	border-right: 0.1rem solid rgba(0, 0, 0, 0);
+	border-left: 0.1rem solid rgba(0, 0, 0, 0);
+	position: absolute;
+	left: 0.5rem;
+	bottom: -0.1rem;
+}
+
+
+/* 第三块 */
+
+.son3{
+	width:3.27rem;
+	height: 7.175rem;
+	margin: 0 auto;
+	/* border: 1px solid blue;  */
+}
+
+.son3-ul{
+	width: 100%;
+	height:100%;
+}
+
+.son3-1{
+	width: 3.07rem;
+	height: 1.225rem;
+	padding: 0.1rem;
+	border-bottom: 0.01rem solid #b8b8b8;
+}
+
+.son3-a{
+	width:100%;
+	height: auto;
+	display: block;
+	display: flex;
+	justify-content: space-between; 
+}
+
+.son3-img{
+	width: 1.15rem;
+	height: 1.15rem;
+	float: left;
+	margin-top: 0.075rem;
+}
+
+.img{
+	width: 1.15rem;
+	height: 1.15rem;
+}
+
+.right{
+	width:1.8rem;
+	height: 0.96rem;
+	margin-top: 0.17rem;
+	float: left; 
+}
+
+.right-top{
+	width: 1.8rem;
+	height: 0.49rem;
+}
+
+.name{
+	width: 1.8rem;
+	height: 0.15rem;
+	color: #000;
+	font-size: 0.16rem;
+
+}
+
+.line{
+	border-top: 1px dashed #b8b8b8;
+	margin: 0.1rem 0;
+}
+
+.zhize{
+	width: 1.8rem;
+	height: 0.13rem;
+	color: #01b5ff;
+	font-size:0.12rem; 
+}
+
+.part2{
+	width: 1.151rem;
+	margin-top: 0.1rem;
+	color: #333;
+	font-size: 0.12rem;
+	overflow: hidden;
+	white-space:nowrap; 
+	text-overflow: ellipsis;
+}
+
+.part3{
+	width: 0.75rem;
+	height: 0.12rem;
+	margin: 0.05rem 0;
+	color:#ff9300;
+	font-size: 0.12rem;
+	float: left;
+}
+
+/* 下一页 */
+
+.fenye{
+	width: 3.27rem;
+	height: 0.4rem;
+}
+
+.fenye-son{
+	width: 100%;
+	height: 0.325rem;
+	margin-top: 0.1rem;
+	padding-top: 0.075rem;
+}
+
+.fenye-son>a:nth-child(1){
+	width: 0.15rem;
+	height: 0.15rem;
+	padding: 0.05rem;
+	margin-right: 0.075rem;
+	margin-left: 0.14rem;
+	background: url('../img/goldshi/s1.png') center center no-repeat;
+	background-size: 100%;
+	display: block;
+	float: left;
+}
+
+.fenye-son>a:nth-child(2){
+	width: 0.64rem;
+	height: 0.15rem;
+	padding: 0.05rem;
+	margin-right: 0.075rem;
+	background: url('../img/goldshi/s2.png') center center no-repeat;
+	background-size: 100%;
+	display: block;
+	float: left;
+}
+
+.fenye-son>a:nth-child(3){
+	/* width: 0.38rem;
+	height: 0.13rem; */
+	padding: 0.05rem;
+	margin-right: 0.075rem;
+	border:1px solid #666;
+	font-size: 0.12rem;
+	color: #333;
+	text-align: center;
+	line-height: 0.13rem;
+	display: block;
+	border-radius: 0.4rem;
+	float: left;
+}
+
+.fenye-son>a:nth-child(4){
+	width: 0.64rem;
+	height: 0.15rem;
+	padding: 0.05rem;
+	margin-right: 0.075rem;
+	background: url('../img/goldshi/s3.png') center center no-repeat;
+	background-size: 100%;
+	display: block;
+	float: left;
+}
+
+.fenye-son>a:nth-child(5){
+	width: 0.15rem;
+	height: 0.15rem;
+	padding: 0.05rem;
+	margin-right: 0.075rem;
+	background: url('../img/goldshi/s4.png') center center no-repeat;
+	background-size: 100%;
+	display: block;
+	float: left;
+}
+
+.footer{
+	width: 100%;
+	height:0.6rem;
+	text-align: center;
+}
+
+.footer p{
+	color: #999;
+	font-size: 0.14rem;
+}
+
+.both{
+	width: 100%;
+	height: 0.4rem;
+}
+
+/* 拨打电话 */
+
+.contact{
+	width: 100%;
+    height: 0.45rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+  	 position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.04rem rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.contactlist{
+	width: 100%;
+	height: 0.45rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	background: #E7E7E7;
+}
+.contactlist img{
+	width: 0.16rem;
+	height: 0.16rem;
+}
+.contactlist span{
+	font-size: 0.12rem;
+	color: #000;
+}
+.freelisen{
+	width: 30%;
+	height: 0.4rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.freetele{
+	width: 40%;
+	height: 0.45rem;
+	display: flex;
+	background-color: #ff8d12;
+    border-radius: 0.04rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.075rem #ff8d12;
+    flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: -0.05rem;
+}
+.freetele>a{
+	width: 0.18rem;
+    height: 0.18rem;
+    background: url(../img/secjlt.png);
+    background-position: -0.8rem -2.39rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    display: inline-block;
+    line-height: 0.45rem;
+}
+.contactlist .freetele span{
+	color: #fff;
+	font-weight: bold;
+}
+.online{
+	width: 30%;
+	height: 0.4rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.online>a{
+	width: 0.18rem;
+    height: 0.18rem;
+    background: url(../img/secjlt.png);
+    background-position: -0.8rem -2.64rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    display: inline-block;
+    line-height: 0.40rem;
+}
+.online .tips{
+	width: 0.17rem;
+	height: 0.17rem;
+	border-radius: 50%;
+	background: #FF2A0E;
+	color: #fff;
+	position: absolute;
+	top:0;
+	left: 0.15rem;
+	text-align: center;
+	line-height: 0.17rem;
+}

@@ -1,0 +1,446 @@
+/*
+* @Author: Acer
+* @Date:   2017-04-10 22:34:05
+* @Last Modified by:   Acer
+* @Last Modified time: 2017-04-11 09:16:47
+*/
+
+
+.php{
+	width: 100%;
+	height:0.45rem;
+	background: #1C4E8B;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 900;
+}
+
+.php a{
+	display: block;
+	width: 0.75rem;
+	height: 0.45rem;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.45rem;
+	float: left;
+	position: relative;
+}
+
+.guodu{
+	width: 0.74rem;
+	height: 0.04rem;
+	background: #fff;
+	position: absolute;
+	top: 0.4rem;
+	right: 0;
+}
+
+.nav{
+	width:0.94rem;
+	height: 0.07rem;
+	background:#FD8C12;
+	position: absolute;
+	top: 2.05rem;
+	left: 0;  
+}
+
+.box1{
+	width: 100%;
+	height: 2.105rem;
+	background: url('../img/goldshi/banner4.jpg') no-repeat center center;
+	background-size: 100%;
+}
+
+
+/* 第二 */
+.box2{
+	width: 100%;
+	height: 2.86rem;
+	background: #F5F6FA;
+}
+
+.box2-son{
+	width: 3.51rem;
+	height:2.8rem;
+	margin: 0 auto;
+}
+
+.son1{
+	width: 100%;
+	height: 0.35rem;
+}
+
+.son1-a{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	color: #000;
+	font-weight:500;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.24rem;
+	margin-right: 0.07rem;
+}
+
+.son1-span1{
+	display: inline-block;
+	width:0.08rem;
+	height: 0.1rem;
+	background: url('../img/goldshi/jiantou.png') no-repeat center center;
+	background-size: 100%;
+	color: #000;
+	margin-top: 0.13rem;
+	font-size: 0.12rem;
+
+}
+.son1-a1{
+	display: inline-block;
+	width:auto;
+	height: auto;
+	color: #000;
+	font-weight:500;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.24rem;
+	margin-right: 0.07rem;
+}
+
+/* 第二块 第二*/
+
+.son2{
+	width:100%;
+	height: 9.32rem;
+	padding-top: 0.17rem;
+	font-size: 0.12rem;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.son2-p{
+	width: 3.36rem;
+	height:3.04rem;
+	padding: 0.03rem 0.03rem 0.1rem 0.12rem;
+	color: #000;
+	font-size: 0.14rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.hr{
+	width:0.4rem;
+	height: 0.015rem;
+	background: #999;
+	margin: 0.1rem auto;
+}
+
+.son-span{
+	width:3.36rem;
+	height: 0.125rem;
+	margin-top: 0.1rem auto;
+	color:#000;
+	font-weight: 400;
+	font-size: 0.12rem; 
+}
+
+.p{
+	width:3.36rem;
+	height:auto;
+	text-align: left;
+	margin: 0.2rem auto;
+	font-weight: 400;
+}
+
+.box2-p{
+	width: 3.36rem;
+	height: 0.87rem;
+	margin: 0 auto 1.25rem;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+}
+
+.box2-p2{
+	width: 2.5rem;
+	height: 0.9rem;
+	margin: 0 auto;
+}
+
+
+.box2-p-left{
+	width: 0.75rem;
+	height: 0.87rem;
+	line-height: 0.3rem;
+	float: left;
+}
+
+.box2-p-left2{
+	width: 1.45rem;
+	height: 0.87rem;
+	float: left;
+	line-height: 0.3rem;
+}
+
+.box2-p-left3{
+	width: 1.1rem;
+	height: 0.87rem;
+	float: left;
+	line-height: 0.3rem;
+}
+
+.box-p-img1{
+	display: block;
+	width: 1.1rem;
+	height: 0.9rem;
+	float: left;
+	margin: 0 auto;
+	padding-right: 0.2rem;
+}
+
+.box-p-img2{
+	display: block;
+	width: 1.1rem;
+	height: 0.9rem;
+	float: left;
+}
+
+
+
+.left-span{
+	width: 100%;
+	height: 0.25rem;
+	/* background: red; */
+}
+
+.left-bottom{
+	width: 100%;
+	height: 0.65rem;
+	overflow: hidden;
+	line-height: 0.3rem;
+	/* background: blue; */
+}
+
+.bottom-p1{
+	width: 100%;
+	height: 0.25rem;
+	line-height: 0.25rem;
+}
+
+
+.son2-p3{
+	width: 3.36rem;
+	height: 2.05rem;
+	/* background: blue; */
+	margin: 0.1rem auto;
+}
+
+.title{
+	width: 100%;
+	height:0.6rem;
+	color: #000;
+	font-weight: 400;
+	/* background: red; */
+}
+
+.p-title{
+	width: 100%;
+	height: 0.3rem;
+	text-align: center;
+	color: #000;
+}
+
+.p-hr{
+	width: 0.4rem;
+	height:0.01rem;
+	background: #999;
+	margin: 0 auto;
+}
+
+.span2{
+	width: 100%;
+	height:0.125rem;
+	text-align: center;
+	/* background: pink; */
+}
+
+.title2{
+	width:3.36rem;
+	height: 1.25rem;
+	margin: 0 auto;
+	color: #000;
+	font-weight: 400;
+	/* background: red; */
+}
+
+.title2-p{
+	width: 100%;
+	height: 0.73rem;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+}
+
+.num{
+	width: 0.45rem;
+	height: 100%;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #000;
+	font-size: 0.20rem;
+	font-weight: 600;
+	float: left;
+}
+.num-right{
+	width: 1.25rem;
+	height: 0.1rem;
+	padding: 0.075rem 0.04rem;
+	float: left;
+}
+
+
+.num-img{
+	width: 0.125rem;
+	height: 0.245rem;
+	background: url('../img/listen/szh-jiantou.png') no-repeat;
+	background-size: 100%;
+	float: left;
+	margin: 0.24rem 0;
+}
+
+.num-right2{
+	width: 1.25rem;
+	height: 0.1rem;
+	padding: 0.075rem 0.04rem;
+	float: left;
+}
+
+.title-bottom{
+	width: 100%;
+	height: 0.49rem;
+	border-bottom: 1px solid #666;
+}
+
+.num-ph{
+	width: 1.49rem;
+	text-align: center;
+	line-height: 0.49rem;
+	float: left;
+}
+
+/* 底部 */
+
+.footer{
+	width: 3.36rem;
+	height:0.6rem;
+	margin:6rem auto 0;
+	
+}
+
+.footer p{
+	color: #000;
+	font-size: 0.12rem;
+	text-align: center;
+}
+
+.both{
+	width: 100%;
+	height: 0.6rem;
+}
+
+/* 拨打电话 */
+
+.contact{
+	width: 100%;
+    height: 0.45rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+  	 position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.04rem rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.contactlist{
+	width: 100%;
+	height: 0.45rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	background: #E7E7E7;
+}
+.contactlist img{
+	width: 0.16rem;
+	height: 0.16rem;
+}
+.contactlist span{
+	font-size: 0.12rem;
+	color: #000;
+}
+.freelisen{
+	width: 30%;
+	height: 0.4rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.freetele{
+	width: 40%;
+	height: 0.45rem;
+	display: flex;
+	background-color: #ff8d12;
+    border-radius: 0.04rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0.075rem #ff8d12;
+    flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: -0.05rem;
+}
+.freetele>a{
+	width: 0.18rem;
+    height: 0.18rem;
+    background: url(../img/secjlt.png);
+    background-position: -0.8rem -2.39rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    display: inline-block;
+    line-height: 0.45rem;
+}
+.contactlist .freetele span{
+	color: #fff;
+	font-weight: bold;
+}
+.online{
+	width: 30%;
+	height: 0.4rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.online>a{
+	width: 0.18rem;
+    height: 0.18rem;
+    background: url(../img/secjlt.png);
+    background-position: -0.8rem -2.64rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    display: inline-block;
+    line-height: 0.40rem;
+}
+.online .tips{
+	width: 0.17rem;
+	height: 0.17rem;
+	border-radius: 50%;
+	background: #FF2A0E;
+	color: #fff;
+	position: absolute;
+	top:0;
+	left: 0.15rem;
+	text-align: center;
+	line-height: 0.17rem;
+}
